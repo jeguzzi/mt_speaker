@@ -1,0 +1,7 @@
+version: '3'
+services:
+  audio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: jeguzzi/thymioid-audio:melodic
